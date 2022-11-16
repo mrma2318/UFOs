@@ -13,11 +13,11 @@
 
 - Now I can start adding rows of data to the table by using a forEach function that loops through our data array. Then I created a variable that will append a row to the table body. Then I wanted to make sure that I specified that each sighting goes onto its own row of data. Next, I appended each value of the object to a cell in the table.
 
-- Since there are hundreds of rows of sighting in the table, the next item to add filters to more effectively review and study the data by using the d3 function to help accomplish this task. First, I created a variable to keep track of all the filters. Then, I created a function to update the filters, called updateFilters.
+- In the table, there are multiple rows of sightings. Therefore, I need to add filters to more effectively review and study the data, by using the d3 function to accomplish this task. First, I created a variable to keep track of all the filters. Then, I created a function to update the filters, called updateFilters.
 
 - Within the updateFilters function that I created, I needed created additional variables that would save the element's that were changed, saves the value of the changed element's property, and create a variable that saves the attribute of the changed element's id. Then I also needed to create an if else statement that checked if a value was changed. If a value was changed then the element's id would be added as the property and the value that was changed was added to the filters. Next, I wanted to call the function to apply all filters and rebuild the table. 
 
-- Then I needed to write a another function, called filterTable, to filter the table based on the user input that is stored in the filters variable. Now I can create a variable for the filtered data that is equal to the data that builds the table. Within the filterTable function, I created a loop through the filters object and stored the data that matches the filter values in the variable created. Now I can rebuild the table with the filtered data by passing the variable created. 
+- Lastly, I needed to write a another function, called filterTable, to filter the table based on the user input that is stored in the filters variable. Now I can create a variable for the filtered data that is equal to the data that builds the table. Within the filterTable function, I created a loop through the filters object and stored the data that matches the filter values in the variable created. Now I can rebuild the table with the filtered data by passing the variable created. 
 
 ## Results
 - The UFO webpage can be found by clicking on [UFO Finder](https://mrma2318.github.io/UFOs/). When you go to the webpage, you can see the article title, summary, the UFO data underneith the summary, and the filter categories on the left hand side of the page. With the filter categories you can filter through the data by date, city, state, country, and shape (Image 1). 
@@ -39,9 +39,9 @@
 ![UFO Sightings in Flordia on 1/11/2010](https://github.com/mrma2318/UFOs/blob/442d7d115b8b358b638444af80ab5fa42f255f8f/Resources/Screen%20Shot%202022-11-15%20at%206.47.05%20PM.png)
 
 ## Summary
-- A drawback to the UFO webpage though is that you can't sort by the categories, you can only filter by category. For example, the signhtings are organized by date, however, if I wanted to sort by city while still seeing all the data. Being able to sort by city for example, allows one to see overall how many sightings one state might have had over the others. Then if they wanted to filter by that state, they could look at that state's sightings in more depth.  
+- A drawback to the UFO webpage though is that you can't sort by the categories, you can only filter by category. For example, the signhtings are organized by date, however, I can't sort by city or any other category while still seeing all the data. Being able to sort by city for example, allows one to see overall how many sightings one state might have had over the others. Then if they wanted to filter by that state, they could look at that state's sightings in more depth.  
 
-- However, there are a few additional recommendations for further development of the webpage. One recommendation would be to include a clear all button for the filters. In order to remove all the filters, you have to individually go into each filter and clear it. 
+- However, there are a few additional recommendations for further development of the webpage. One recommendation would be to include a clear all button for the filters. In order to remove all the filters, you have to individually go into each filter and clear it. Providing a Clear All button will assist in faster searchers and a more user friendly webpage.
 
 - Another recommendation for further development is to further clean the data. For example, the cities and states are all lowercase. Capitalizing those categories appropriately would present a more professional and clean webpage. Some of the comments in the data also have numerical values that could be removed to provide a more cleaner comment section when reviewing the data, Image 4. 
 
