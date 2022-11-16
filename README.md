@@ -24,13 +24,19 @@
 
 ### Image 1: Filter Search Menu
 
+![Filter Search](https://github.com/mrma2318/UFOs/blob/442d7d115b8b358b638444af80ab5fa42f255f8f/Resources/Screen%20Shot%202022-11-15%20at%206.45.56%20PM.png)
+
 - For example, if you wanted to see all the UFO sightings that happened on 1/13/2010, you can put that date in the "Date" filter and press enter on your keyboard. The table will then show you all the UFO sightings that happened on 1/13/2010, Image 2. 
 
 ### Image 2: UFO Sightings on 1/13/2010
 
+![UFO Sightings on 1/13/2010](https://github.com/mrma2318/UFOs/blob/442d7d115b8b358b638444af80ab5fa42f255f8f/Resources/Screen%20Shot%202022-11-15%20at%206.46.29%20PM.png)
+
 - You can also filter using more than one of the categories. For example, if you wanted to see all the UFO sightings that happened in Flordia on January 11, 2010, you can filter by "Date" 1/11/2010, and "State", fl. The table will then filter to show you all the UFO sightings that happened on 1/11/2010 in Flordia, Image 3. 
 
 ### Image 3: UFO Signtings on 1/11/2010 in Flordia
+
+![UFO Sightings in Flordia on 1/11/2010](https://github.com/mrma2318/UFOs/blob/442d7d115b8b358b638444af80ab5fa42f255f8f/Resources/Screen%20Shot%202022-11-15%20at%206.47.05%20PM.png)
 
 ## Summary
 - A drawback to the UFO webpage though is that you can't sort by the categories, you can only filter by category. For example, the signhtings are organized by date, however, if I wanted to sort by city while still seeing all the data. Being able to sort by city for example, allows one to see overall how many sightings one state might have had over the others. Then if they wanted to filter by that state, they could look at that state's sightings in more depth.  
@@ -40,3 +46,5 @@
 - Another recommendation for further development is to further clean the data. For example, the cities and states are all lowercase. Capitalizing those categories appropriately would present a more professional and clean webpage. Some of the comments in the data also have numerical values that could be removed to provide a more cleaner comment section when reviewing the data, Image 4. 
 
 ### Image 4
+
+![Comment](https://github.com/mrma2318/UFOs/blob/442d7d115b8b358b638444af80ab5fa42f255f8f/Resources/Screen%20Shot%202022-11-15%20at%207.05.03%20PM.png)
